@@ -17,11 +17,15 @@ export default function Nav() {
     history.push("/Login");
   };
 
+  const onClickCallRequest = () => {
+    history.push("/CallRequest");
+  };
+
   const Logout = (event) => {
     event.preventDefault(false);
     localStorage.setItem("auth-token", "");
     window.location.reload(true);
-    setUserData()
+    setUserData();
     history.push("/");
   };
 
@@ -31,8 +35,11 @@ export default function Nav() {
         <>
           <div className="active">
             <b>
-              <a href="/">Fashion Depot</a>
+              <a href="/">The Tailor Shop</a>
             </b>
+          </div>
+          <div className="SignUp" onClick={onClickCallRequest}>
+            Request a call
           </div>
           <div className="SignUp" onClick={Logout}>
             Logout
@@ -42,8 +49,11 @@ export default function Nav() {
         <>
           <div className="active">
             <b>
-              <a href="/">Fashion Depot</a>
+              <a href="/">The Tailor Shop</a>
             </b>
+          </div>
+          <div className="SignUp" onClick={onClickCallRequest}>
+            Request a call
           </div>
           <div className="SignUp" onClick={onClickRegister}>
             SignUp

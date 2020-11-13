@@ -1,0 +1,32 @@
+/*set a style for all buttons*/
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 18px;
+  margin: 8px 20px;
+  cursor: pointer;
+}
+
+.formpage {
+  border: 5px solid #f1f1f1;
+  width: 450px;
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 25%;
+  padding-left: 60px;
+}
+
+.callList {
+  border: 5px solid #f1f1f1;
+  width: 450px;
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 25%;
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+.submit {
+  margin-top: 100px;
+  margin-left: 50%;
+}

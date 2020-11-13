@@ -57,7 +57,7 @@ function Login() {
             </label>
 
             <input
-              type="text"
+              type="password"
               id="register-password"
               onChange={(e) => setpassword(e.target.value)}
               required

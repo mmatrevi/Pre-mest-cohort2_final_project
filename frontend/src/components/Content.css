@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 .cards {
     padding: 1rem;
     background: #fff;

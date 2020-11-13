@@ -9,6 +9,7 @@ import Casual from "./components/Casual-Gallery";
 import Summer from "./components/Summer-Gallery";
 import Kids from "./components/Kids-Gallery";
 import UserContext from "./context/UserContext";
+import CallRequest from "./components/CallRequest";
 import axios from "axios";
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
             <Route exact path="/Creative-Gallery" component={Creative} />
             <Route exact path="/Summer-Gallery" component={Summer} />
             <Route exact path="/Kids-Gallery" component={Kids} />
+            <Route exact path="/CallRequest" component={CallRequest} />
           </Switch>
         </UserContext.Provider>
       </BrowserRouter>
